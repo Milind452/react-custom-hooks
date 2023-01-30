@@ -9,6 +9,7 @@ import UseStateWithHistory from './Components/UseStateWithHistory';
 import UseWindowSize from './Components/UseWindowSize';
 
 import Home from './Components/Home';
+import NotFound from './Components/NotFound';
 import './App.css'
 
 function App() {
