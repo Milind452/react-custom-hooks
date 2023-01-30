@@ -9,6 +9,7 @@ import UseStateWithHistory from './Components/UseStateWithHistory';
 import UseWindowSize from './Components/UseWindowSize';
 
 import Home from './Components/Home';
+import Navbar from './Components/Navbar';
 import NotFound from './Components/NotFound';
 import './App.css'
 
@@ -24,16 +25,23 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {
-          hooks.map(({name, component}) => {
-            console.log(name, component);
-            return <Route key={name} path={name} element={component} />;
-          })
-        }
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+      <main>
+        <nav>
+          <Navbar />
+        </nav>
+        <article>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {
+              hooks.map(({name, component}) => {
+                console.log(name, component);
+                return <Route key={name} path={name} element={component} />;
+              })
+            }
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </article>
+      </main>
     </BrowserRouter>
   )
 }
