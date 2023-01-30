@@ -31,6 +31,7 @@ function App() {
             return <Route key={name} path={name} element={component} />;
           })
         }
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
