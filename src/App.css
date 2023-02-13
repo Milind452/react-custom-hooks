@@ -30,7 +30,7 @@ nav {
     }
 }
 
-article {
+.details {
     margin-left: 25%;
     text-align: center;
 }
@@ -62,5 +62,5 @@ article {
 }
 
 .link:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }

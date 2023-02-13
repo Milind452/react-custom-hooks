@@ -29,7 +29,7 @@ function App() {
         <nav>
           <Navbar hooks={hooks.map(hook => hook['name'])} />
         </nav>
-        <article>
+        <article className='details'>
           <Routes>
             <Route path="/" element={<Home />} />
             {
