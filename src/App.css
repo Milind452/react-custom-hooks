@@ -32,7 +32,8 @@ nav {
 
 .details {
     margin-left: 25%;
-    text-align: center;
+    text-align: justify;
+    padding: 20px;
 }
 
 .menu {
@@ -63,4 +64,8 @@ nav {
 
 .link:hover {
     cursor: pointer;
+}
+
+pre {
+    display: inline-block;
 }
