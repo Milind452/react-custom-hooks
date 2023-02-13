@@ -27,14 +27,13 @@ function App() {
     <BrowserRouter>
       <main>
         <nav>
-          <Navbar />
+          <Navbar hooks={hooks.map(hook => hook['name'])} />
         </nav>
         <article>
           <Routes>
             <Route path="/" element={<Home />} />
             {
               hooks.map(({name, component}) => {
-                console.log(name, component);
                 return <Route key={name} path={name} element={component} />;
               })
             }
