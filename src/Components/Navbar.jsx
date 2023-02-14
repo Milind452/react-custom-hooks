@@ -4,7 +4,9 @@ import reactLogo from "../assets/react.svg";
 export default function Navbar({ hooks }) {
     return (
         <>
-            <img src={reactLogo} className="logo react" alt="React logo" />
+            <Link to="/">
+                <img src={reactLogo} className="logo react" alt="React logo" />
+            </Link>
             <ul className="menu">
                 {hooks.map((hook) => (
                     <li key={hook} className="menu-item">
