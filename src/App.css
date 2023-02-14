@@ -1,7 +1,7 @@
 nav {
     height: 100%;
     width: 25%;
-    background-color: rgb(247, 247, 247);
+    background-color: #20232a;
     text-align: center;
     position: fixed;
     display: flex;
@@ -43,12 +43,13 @@ nav {
     align-items: center;
     width: 100%;
     height: 70%;
+    padding: 0;
 }
 
 .menu-item {
     list-style-type: none;
     width: 100%;
-    border-top: 1px solid navy;
+    border-top: 1px solid #0d0e10;
 }
 
 .link {
@@ -59,11 +60,18 @@ nav {
     height: 100%;
     font-size: 20px;
     overflow: hidden;
-    color: black;
+    color: #fff;
+    background: none;
 }
 
 .link:hover {
     cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+.link:active {
+    color: #61dafb;
 }
 
 pre {
