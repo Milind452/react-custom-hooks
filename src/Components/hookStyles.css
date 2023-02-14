@@ -1,0 +1,44 @@
+article {
+    background-color: #282c34;
+    color: #fff;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+h2 {
+    color: #61dafb;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+}
+
+p {
+    padding: 10px 20px;
+    line-height: 1.5;
+}
+
+ul {
+    padding: 10px 60px;
+}
+
+pre {
+    background-color: #585b60;
+    border-radius: 4px;
+    padding: 1px 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #11967e;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 2px;
+    transition: background-size 0.3s;
+    background: linear-gradient(0deg, #11967e, #11967e) no-repeat 100% 100%/0
+        10%;
+}
+
+a:hover {
+    background-position-x: left;
+    background-size: 100% 10%;
+}

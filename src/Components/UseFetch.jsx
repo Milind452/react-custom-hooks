@@ -1,4 +1,5 @@
 import "../prism.css";
+import "./hookStyles.css";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
 
@@ -87,19 +88,19 @@ function Fetcher() {
             </p>
             <ul>
                 <li>
-                    <strong>responseJSON:</strong>The JSON response from the
+                    <strong>responseJSON: </strong>The JSON response from the
                     most recent call to <pre>fetch</pre>. If no response has
                     been received yet or the most recent resulted in an error,
                     this will be null.
                 </li>
                 <li>
-                    <strong>isLoading:</strong>When a fetch request is issued,
+                    <strong>isLoading: </strong>When a fetch request is issued,
                     this will be set to <pre>true</pre>, and set to{" "}
                     <pre>false</pre> when the response comes back or an error is
                     thrown.
                 </li>
                 <li>
-                    <strong>error:</strong>If the most recent call to{" "}
+                    <strong>error: </strong>If the most recent call to{" "}
                     <pre>fetch</pre> threw an error or retrieving the JSON from
                     the most recent response threw an error, the error should be
                     saved in this value, otherwise it should be null.
