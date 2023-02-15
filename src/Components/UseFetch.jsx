@@ -67,13 +67,13 @@ function Fetcher() {
             <p>
                 The <pre>useFetch</pre> custom hook takes in a required
                 <pre>url</pre> as a string or URL object. This parameter is
-                directly passed to the native JavaScript
+                directly passed to the native JavaScript{" "}
                 <a
                     href="https://developer.mozilla.org/en-US/docs/Web/API/fetch"
                     target="_blank"
                 >
                     fetch
-                </a>
+                </a>{" "}
                 function.
             </p>
             <p>
