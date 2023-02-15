@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <article style={{ height: "100vh" }}>
+        <article style={{ height: "calc(100vh - 40px)" }}>
             <h2>Home</h2>
             <p>
                 This a collection of custom hooks for react to make our lives
