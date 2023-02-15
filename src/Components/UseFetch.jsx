@@ -65,7 +65,7 @@ function Fetcher() {
         <article>
             <h2>useFetch()</h2>
             <p>
-                The <pre>useFetch</pre> custom hook takes in a required
+                The <pre>useFetch</pre> custom hook takes in a required{" "}
                 <pre>url</pre> as a string or URL object. This parameter is
                 directly passed to the native JavaScript{" "}
                 <a
@@ -95,12 +95,12 @@ function Fetcher() {
                 </li>
                 <li>
                     <strong>isLoading: </strong>When a fetch request is issued,
-                    this will be set to <pre>true</pre>, and set to
+                    this will be set to <pre>true</pre>, and set to{" "}
                     <pre>false</pre> when the response comes back or an error is
                     thrown.
                 </li>
                 <li>
-                    <strong>error: </strong>If the most recent call to
+                    <strong>error: </strong>If the most recent call to{" "}
                     <pre>fetch</pre> threw an error or retrieving the JSON from
                     the most recent response threw an error, the error will be
                     saved in this value, otherwise it will be null.
