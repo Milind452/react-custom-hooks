@@ -82,3 +82,8 @@ a:has(.logo) {
 pre {
     display: inline-block;
 }
+
+footer {
+    position: absolute;
+    bottom: 8%;
+}
