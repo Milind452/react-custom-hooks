@@ -1,3 +1,7 @@
 export default function UseFetch() {
-    return <h2>Not Found</h2>;
+    return (
+        <article style={{ height: "100vh" }}>
+            <h2>Not Found</h2>
+        </article>
+    );
 }
