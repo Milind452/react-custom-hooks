@@ -70,7 +70,7 @@ setFunc(() => {
             </p>
             <p>
                 If the <pre>delay</pre> is ever set to <pre>null</pre> or{" "}
-                <pre>undefined</pre>, the interval should be cancelled.
+                <pre>undefined</pre>, the interval will be cancelled.
             </p>
             <p>
                 If the <pre>callback</pre> function changes, the interval is
