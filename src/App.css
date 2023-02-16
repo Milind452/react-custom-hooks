@@ -57,6 +57,10 @@ a:has(.logo) {
     border-top: 1px solid #0d0e10;
 }
 
+.menu-item:last-of-type {
+    border-bottom: 1px solid #0d0e10;
+}
+
 .link {
     padding: 20px 0;
     text-decoration: none;
@@ -75,7 +79,7 @@ a:has(.logo) {
     color: #282c34;
 }
 
-.link:active {
+.link:link {
     color: #61dafb;
 }
 
