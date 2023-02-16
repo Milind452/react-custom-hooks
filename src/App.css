@@ -79,7 +79,7 @@ a:has(.logo) {
     color: #282c34;
 }
 
-.link:link {
+.selected-nav-link {
     color: #61dafb;
 }
 
